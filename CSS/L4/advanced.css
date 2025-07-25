@@ -1,0 +1,42 @@
+body{
+    background-color: blue;
+    color: white;
+}
+h1{
+    color: red;
+}
+a{
+    color: peachpuff;
+    text-decoration: none;
+}
+a:hover{
+    color:green;
+    font-size: 30px;
+    background-color: beige;
+}
+/*child selector*/
+ul > li{
+    font-size: 30 px;
+}
+/*sibling selector*/
+ul+p{
+    background-color: yellow;
+    color: blue;
+    border-radius: 10px;
+}
+li:nth-child(4) {
+color: grey;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+li::before{
+    content: "🚀";
+}
+a::after{
+    content: "🌌";
+}
+p::first-letter{
+    font-size: 200%;
+    color: chocolate;
+}
