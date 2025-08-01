@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            positioning in css
+        </title>
+        <style>
+            div{
+                right: 30px;
+                border: 2px solid yellow;
+            }
+            .sticky{
+                position: sticky;
+                top: 2px;
+                left: 20px;
+                width: 100px;
+                background-color: aqua;
+                border: 3px solid orange;
+            }
+            .rel{
+                position: relative;
+                left: 100px;
+                border: 3px solid purple;
+            }
+            .ab{
+                position: absolute;
+                left: 50px;
+                border: 3px solid blue;
+            }
+            .fix{
+                position: fixed;
+                top: 0px;
+                right: 30px;
+                background-color: darkcyan;
+            }
+            h1{
+                opacity: 0.2;
+            }
+            h2{
+                opacity: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>opacity</h1>
+        <h2>opacity 2</h2>
+        <div>No positioning property</div>
+        <div class="sticky">sticky positioning property</div>
+        <div class="rel">relative positioning property
+            <div class="ab">absolute positioning property</div>
+        </div>
+        <div class="fix">fixed positioning property</div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   
+    </body>
+</html>
