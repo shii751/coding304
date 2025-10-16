@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>DETAIL</title>
+    </head>
+    <BODY>
+        <h2>Javascript Error Handling</h2>
+        <p>This example demonstrates how to use <b>to display an error.</b></p>
+        <p id="error_message"></p>
+        <p id="result"></p>
+
+        <script>
+            try {
+                addalert("Welcome Guest")
+            }
+            catch(err) {
+                document.getElementById("error_message").innerHTML = err.message;
+            }
+
+            add = (a,b) => a+b
+            document.getElementById("result").innerHTML = add(4,6)
+        </script>
+    </BODY>
+</html>

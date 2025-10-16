@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Javascript string methods</title>
+
+        <p>Search a string for", display the position of the match and 
+            replace the world"how are you"and dislplay</p>
+
+            <p id="search_result"></p>
+            <p id="replace_result"></p>
+            <p id="sring_result"></p>
+
+            <script>
+                var str = "hello how are doing for the day";
+                 var search_position = str.search("how");
+                 var txt = str.replace("how are" , "how are you")
+                 var x = 70;;
+                 var y = 90;
+                 document.getElementById("search_result").innerHTML = search_position;
+                 document.getElementById("replace_result").innerHTML = txt;
+
+                 document.getElementById("string_result").innerHTML = String(x) + String(y); //Does not add
+
+            </script>
+    </head>
+</html>
